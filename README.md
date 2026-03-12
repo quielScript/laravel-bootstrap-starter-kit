@@ -41,7 +41,7 @@ npm - v;
 Clone the repository and rename the project folder:
 
 ```js
-git clone https://github.com/your-username/laravel-starter-kit.git my-project
+git clone https://github.com/your-username/laravel-bootstrap-starter-kit.git my-project
 ```
 
 Navigate into the project directory:
