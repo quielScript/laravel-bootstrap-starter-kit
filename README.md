@@ -52,8 +52,19 @@ cd my-project
 
 Remove the original git history:
 
+Powershell:
 ```js
-rm - rf.git;
+Remove-Item -Recurse -Force .git
+```
+
+Linux / macOS (Bash / Zsh):
+```js
+rm -rf .git
+```
+
+Windows CMD (Command Prompt):
+```js
+rmdir /s /q .git
 ```
 
 Initialize a new git repository:
