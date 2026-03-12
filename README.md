@@ -105,7 +105,7 @@ npm install
 Create your environment file:
 
 ```js
-cp.env.example.env;
+cp .env.example .env
 ```
 
 Generate the Laravel application key:
