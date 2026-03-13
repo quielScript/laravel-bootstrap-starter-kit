@@ -28,10 +28,10 @@ Before using this starter kit, make sure you have the following installed:
 You can check installed versions with:
 
 ```js
-php - v;
-composer - v;
-node - v;
-npm - v;
+php -v
+composer -v
+node -v
+npm -v
 ```
 
 ---
