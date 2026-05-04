@@ -11,6 +11,7 @@ This starter kit includes a clean Laravel installation with SQLite and Pest conf
 - Laravel
 - Bootstrap Styles
 - SQLite database
+- Breeze authentication
 - Pest testing framework
 - Vite for frontend assets
 
@@ -53,16 +54,19 @@ cd my-project
 Remove the original git history:
 
 Powershell:
+
 ```js
 Remove-Item -Recurse -Force .git
 ```
 
 Linux / macOS (Bash / Zsh):
+
 ```js
 rm -rf .git
 ```
 
 Windows CMD (Command Prompt):
+
 ```js
 rmdir /s /q .git
 ```
