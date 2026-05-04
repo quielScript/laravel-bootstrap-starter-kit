@@ -29,10 +29,10 @@ Before using this starter kit, make sure you have the following installed:
 You can check installed versions with:
 
 ```js
-php - v;
-composer - v;
-node - v;
-npm - v;
+php -v
+composer -v
+node -v
+npm -v
 ```
 
 ---
@@ -56,19 +56,19 @@ Remove the original git history:
 Powershell:
 
 ```js
-Remove - Item - Recurse - Force.git;
+Remove-Item -Recurse -Force.git;
 ```
 
 Linux / macOS (Bash / Zsh):
 
 ```js
-rm - rf.git;
+rm -rf .git;
 ```
 
 Windows CMD (Command Prompt):
 
 ```js
-rmdir / s / q.git;
+rmdir /s /q .git;
 ```
 
 Initialize a new git repository:
@@ -109,7 +109,7 @@ npm install
 Create your environment file:
 
 ```js
-cp.env.example.env;
+cp .env.example .env;
 ```
 
 Generate the Laravel application key:
